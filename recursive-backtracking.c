@@ -90,11 +90,6 @@ void carve_passage(int cx, int cy, int grid[WIDTH][HEIGHT]) {
 	//shuffle the direction array
 	shuffle_array(directions, 4);
 
-	/**
-	for(i = 0; i < 4; i++) {
-		printf("Direction: %d\n", directions[i]);
-	}
-	**/
 	//iterates through the direction then test if the cell in that direction is valid and
 	//within the bounds of the maze
 	for(i = 0; i < 4; i++) {
