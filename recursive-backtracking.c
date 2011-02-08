@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <string.h>
+#include <png.h>
 
 int WIDTH, HEIGHT;
 enum {N=1,E=4,S=2,W=8};
